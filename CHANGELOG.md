@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Fixed pubspec.yaml description length (was too long for pub.dev)
+- Added `example/` folder — fixes pub.dev documentation score
+
 ## 1.0.0
 
 - Initial release 🎉

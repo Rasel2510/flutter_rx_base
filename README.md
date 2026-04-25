@@ -8,7 +8,7 @@ Provides `RxResponseInt`, `ErrorHandler`, `DataSource`, `Failure`, `ResponseCode
 
 ```yaml
 dependencies:
-  flutter_rx_base: ^1.0.0
+  flutter_rx_base: ^1.0.1
 ```
 
 ## Usage
