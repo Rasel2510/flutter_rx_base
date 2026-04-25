@@ -1,0 +1,29 @@
+name: flutter_rx_base
+description: >-
+  A lightweight base package for reactive API data layers in Flutter apps.
+  Includes RxResponseInt, ErrorHandler, DataSource, Failure, and response codes —
+  the boilerplate you copy into every project, now in one dependency.
+version: 1.0.0
+homepage: https://github.com/Rasel2510/flutter_rx_base
+repository: https://github.com/Rasel2510/flutter_rx_base
+issue_tracker: https://github.com/Rasel2510/flutter_rx_base/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  rxdart: ">=0.27.0 <1.0.0"
+  dio: ">=5.4.0 <6.0.0"
+  get: ">=4.6.0 <5.0.0"
+  dio_ansi_logger: ">=1.0.3 <2.0.0"
+
+dev_dependencies:
+  lints: ">=3.0.0"
+  test: ">=1.24.0"
+
+topics:
+  - dio
+  - rxdart
+  - networking
+  - reactive
+  - flutter
