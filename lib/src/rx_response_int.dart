@@ -58,7 +58,7 @@ abstract class RxResponseInt<T> {
       tag: runtimeType.toString(),
     );
     dataFetcher.sink.addError(error);
-    throw error;
+    return false;
   }
 
   /// Resets the stream to the [empty] value.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+- Fixed: removed `throw error` from `handleErrorWithReturn` — was causing double error emission in StreamBuilder
+- Fixed: added `return false` to satisfy non-nullable return type
+- Removed: `get` package dependency — `.tr` was unused (no translation map provided)
+- Improved: `const Failure` for better memory efficiency
+
 ## 1.0.1
 
 - Fixed pubspec.yaml description length (was too long for pub.dev)

@@ -1,6 +1,6 @@
 name: flutter_rx_base
 description: "Reactive API base layer for Flutter. Includes RxResponseInt, ErrorHandler, DataSource, Failure, and response codes."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Rasel2510/flutter_rx_base
 repository: https://github.com/Rasel2510/flutter_rx_base
 issue_tracker: https://github.com/Rasel2510/flutter_rx_base/issues
@@ -11,7 +11,6 @@ environment:
 dependencies:
   rxdart: ">=0.27.0 <1.0.0"
   dio: ">=5.4.0 <6.0.0"
-  get: ">=4.6.0 <5.0.0"
   dio_ansi_logger: ">=1.0.3 <2.0.0"
 
 dev_dependencies:

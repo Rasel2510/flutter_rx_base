@@ -5,11 +5,10 @@
   "packages": [
     {
       "name": "flutter_rx_base",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "dependencies": [
         "dio",
         "dio_ansi_logger",
-        "get",
         "rxdart"
       ],
       "devDependencies": [
@@ -58,14 +57,6 @@
       "version": "1.0.3",
       "dependencies": [
         "dio"
-      ]
-    },
-    {
-      "name": "get",
-      "version": "4.7.3",
-      "dependencies": [
-        "flutter",
-        "web"
       ]
     },
     {
@@ -335,23 +326,6 @@
       ]
     },
     {
-      "name": "web",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "flutter",
-      "version": "0.0.0",
-      "dependencies": [
-        "characters",
-        "collection",
-        "material_color_utilities",
-        "meta",
-        "sky_engine",
-        "vector_math"
-      ]
-    },
-    {
       "name": "dio_web_adapter",
       "version": "2.1.2",
       "dependencies": [
@@ -399,6 +373,11 @@
       "dependencies": [
         "web"
       ]
+    },
+    {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
     },
     {
       "name": "crypto",
@@ -494,28 +473,6 @@
         "meta",
         "source_span"
       ]
-    },
-    {
-      "name": "sky_engine",
-      "version": "0.0.0",
-      "dependencies": []
-    },
-    {
-      "name": "vector_math",
-      "version": "2.2.0",
-      "dependencies": []
-    },
-    {
-      "name": "material_color_utilities",
-      "version": "0.13.0",
-      "dependencies": [
-        "collection"
-      ]
-    },
-    {
-      "name": "characters",
-      "version": "1.4.1",
-      "dependencies": []
     },
     {
       "name": "file",
